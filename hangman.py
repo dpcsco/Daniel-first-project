@@ -9,9 +9,6 @@ git push -u origin main
 class Hangman:
     def __init__(self, user_word) -> None:
         self.user_word = user_word
-        
-    def __str__(self) -> str:
-        return ""
     
     global char_list
     global output_list
